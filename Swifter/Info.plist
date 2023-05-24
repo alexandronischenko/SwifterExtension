@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>XCSourceEditorCommandDefinitions</key>
+			<array>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).RemarkPrintCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).RemarkPrintCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Remark print</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SnakeCaseCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).SnakeCaseCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Convert to snake_case</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).PascalCaseCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PascalCaseCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Convert to PascalCase</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).CamelCaseCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).CamelCaseCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>To camelCase</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).CoffeeTimeCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).CoffeeTimeCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Coffee Time</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SortLinesCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).SortLinesCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Sort lines</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).LowerCaseCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).LowerCaseCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>To lowercase</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).ClearClosureCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).ClearClosureCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Clear Closure</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).UpperCaseCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).UpperCaseCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>To UPPERCASE</string>
+				</dict>
+			</array>
+			<key>XCSourceEditorExtensionPrincipalClass</key>
+			<string>$(PRODUCT_MODULE_NAME).SourceEditorExtension</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.dt.Xcode.extension.source-editor</string>
+	</dict>
+</dict>
+</plist>
